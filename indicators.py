@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import finplot as fplt
 
-
+ 
 def prev_price(number, i, close_data, boolean = True):      ###اگر true بود باید از کندل های قبلی بزرگتر باشه و برعکس
     x = 0
     if boolean:
